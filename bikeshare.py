@@ -147,7 +147,7 @@ def raw_data(df):
     s_loc = 0
     e_loc = 5
 
-    rawdat = input("Would you like to see the raw data? yes/no: ").lower()
+    rawdat = input("Would you like to see the raw data? Please type yes/no: ").lower()
 
     if rawdat == 'yes':
         while e_loc <= df.shape[0] - 1:
@@ -156,7 +156,7 @@ def raw_data(df):
             s_loc += 5
             e_loc += 5
 
-            more_raw = input("Would you like to continue?: ").lower()
+            more_raw = input("Would you like to continue? yes/no: ").lower()
             if more_raw == 'no':
                 break
     

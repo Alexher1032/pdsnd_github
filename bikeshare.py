@@ -15,9 +15,9 @@ def get_filters():
         (str) month - name of the month to filter by, or "all" to apply no month filter
         (str) day - name of the day of week to filter by, or "all" to apply no day filter
     """
-    print('Hello! Let\'s explore some US bikeshare data!')
+    print('Hello and welcome! Let\'s explore some US bikeshare data!')
     # TO DO: get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
-    city = input("Type the city that you want to check the statistics from: ").lower()
+    city = input("Type the city that you want to check the statistics from Chicago, New York City or Washington: ").lower()
     while city not in ['chicago', 'new york city', 'washington']:
         city = input("We do not have such information. Please try with Chicago, Washington or New York City:").lower()
 
@@ -147,7 +147,7 @@ def raw_data(df):
     s_loc = 0
     e_loc = 5
 
-    rawdat = input("Would you like to see the raw data? yes/no: ").lower()
+    rawdat = input("Would you like to see the raw data? Please type yes/no: ").lower()
 
     if rawdat == 'yes':
         while e_loc <= df.shape[0] - 1:
@@ -156,7 +156,7 @@ def raw_data(df):
             s_loc += 5
             e_loc += 5
 
-            more_raw = input("Would you like to continue?: ").lower()
+            more_raw = input("Would you like to continue? yes/no: ").lower()
             if more_raw == 'no':
                 break
     

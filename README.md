@@ -1,15 +1,10 @@
 ### Date created
-Include the date you created this project and README file.
-
+8th may 2020
 ### Project Title
-Replace the Project Title
-
+Alex´s Udacity Project for Python
 ### Description
-Describe what your project is about and what it does
-
+This was the second Udacity project. Is about generating a system on Python that shows general and raw statistics of the use of bikes in the cities of Washington, Chicaco and New York.
 ### Files used
-Include the files used
-
+bikeshare.py, chicago.csv, new_york_city.csv and washington.csv
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+https://www.motivateco.com/
